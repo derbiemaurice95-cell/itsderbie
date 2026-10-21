@@ -2,121 +2,167 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Derbie Maurice – Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeMyMelody – Find Someone Who Matches Your Song</title>
+  <meta name="description" content="BeMyMelody: the dating app that matches you by music, verifies every profile, and ends ghosting. One-time $8 entry.">
   <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="resume.css">
 <body>
 
-  <header>
-    <h1>Derbie Maurice</h1>
-    <address>
-      <p>Brockton, MA 02301</p>
-      <p><a href="mailto:derbiemaurice55@yahoo.com">derbiemaurice55@yahoo.com</a></p>
-      <p><a href="tel:+15085627667">508-562-7667</a></p>
-    </address>
+  <!-- Floating background: butterflies & notes -->
+  <div class="sky" aria-hidden="true">
+    <span class="note n1">♪</span><span class="note n2">♫</span><span class="note n3">♩</span>
+    <span class="note n4">♬</span><span class="note n5">♪</span><span class="note n6">♫</span>
+    <span class="note n7">♩</span><span class="note n8">♬</span>
+    <div class="bf b1"><i></i><i></i></div>
+    <div class="bf b2"><i></i><i></i></div>
+    <div class="bf b3"><i></i><i></i></div>
+    <div class="bf b4"><i></i><i></i></div>
+  </div>
+
+  <header class="nav">
+    <a href="#top" class="logo">♫ Be<span>My</span>Melody</a>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="burger" aria-label="Menu"><b></b><b></b><b></b></label>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#fixes">We Fixed Dating</a>
+      <a href="#how">How It Works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#join" class="btn small">Enter · $8</a>
+    </nav>
   </header>
 
-  <main>
+  <main id="top">
 
-    <section id="summary">
-      <h2>Professional Summary</h2>
-      <p>
-        I have a strong desire to learn the skills and strategies of network security, web development,
-        risk assessment, testing, debugging, cryptography, manage VPNs, and all that comes within ensuring
-        comprehensive cyber security to use my personal and to contribute to the success of this course.
-      </p>
-      <p>
-        I am self motivated; able to set effective priorities to achieve immediate and long term goals and
-        meet operational deadlines. I function well independently and as a team member. I adapt easily to
-        new concepts and responsibilities.
-      </p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="pill">🦋 Dating, in harmony</p>
+        <h1>Don't just match.<br><em>Be my melody.</em></h1>
+        <p class="lead">The dating app that pairs you through the songs you love, with real people, real conversations and zero ghosting.</p>
+        <div class="cta-row">
+          <a href="#join" class="btn">Enter for $8 · once</a>
+          <a href="#features" class="btn ghost">See features</a>
+        </div>
+        <p class="tiny">One payment. No subscription. No hidden fees. Ever.</p>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone">
+          <div class="screen">
+            <div class="card">
+              <div class="avatar a1"></div>
+              <h3>Luna, 27</h3>
+              <p>🎧 Fleetwood Mac · SZA · Khruangbin</p>
+              <div class="match-bar"><span></span></div>
+              <small>92% melody match</small>
+            </div>
+            <div class="card back"></div>
+            <div class="actions"><span>✕</span><span class="heart">♥</span><span>♪</span></div>
+          </div>
+        </div>
+        <div class="bf hb1"><i></i><i></i></div>
+        <div class="bf hb2"><i></i><i></i></div>
+      </div>
     </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Patience</li>
-        <li>Privacy/HIPAA Regulations</li>
-        <li>Customer service</li>
-        <li>Multilingual/French, Creole and English</li>
-        <li>Dexterity</li>
-        <li>Computer</li>
-        <li>Attention to details</li>
-        <li>Time Management</li>
-        <li>Data Entry/Excel</li>
-      </ul>
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>♪ Verified humans</span><span>🦋 Music-first matching</span><span>♫ No ghosting</span><span>♬ One-time \$8</span><span>♪ Ad-free</span>
+        <span>♪ Verified humans</span><span>🦋 Music-first matching</span><span>♫ No ghosting</span><span>♬ One-time \$8</span><span>♪ Ad-free</span>
+      </div>
+    </div>
+
+    <!-- 3 CORE FEATURES -->
+    <section id="features" class="section">
+      <h2>Three things every dating app <em>must</em> get right</h2>
+      <div class="grid3">
+        <article class="feature">
+          <div class="icon">🎵</div>
+          <h3>1. Smart Melody Matching</h3>
+          <p>Connect your playlists and we match you by taste, mood and values. Share a favorite song, share a spark.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">🛡️</div>
+          <h3>2. Verified & Safe Profiles</h3>
+          <p>Every member passes a live selfie check. Block, report and hide in one tap, with a safety check-in for first dates.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">💬</div>
+          <h3>3. Real Conversations</h3>
+          <p>Text, voice notes and video dates in one place. Song-based icebreakers mean no more "hey".</p>
+        </article>
+      </div>
     </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-
-      <article>
-        <h3>Homecare Specialist</h3>
-        <p>Professional Care Match, Brockton, MA</p>
-        <p><time datetime="2025">2025</time> – present</p>
-        <ul>
-          <li>Housekeeping, errands, compassionate and technical healthcare tending, patient at home safety</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Clinical Care Assistant</h3>
-        <p>Signature Healthcare, Brockton, MA</p>
-        <p><time datetime="2022">2022</time> – <time datetime="2023">2023</time></p>
-        <ul>
-          <li>Delivered lab specimens and answered patient call lights on the hour, anticipated basic needs, increasing patient satisfaction and maintained safe, clean environment by keeping area neat.</li>
-          <li>Provided general nursing care/ADLs, vital signs, positioning and turning patients</li>
-          <li>Observe and document patients’ physical and emotional condition</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Home Health Aid</h3>
-        <p>FCP Live-In Assisted Living @ Home, Stratford, CT</p>
-        <p><time datetime="2023">2023</time> – <time datetime="2024">2024</time></p>
-        <ul>
-          <li>Cooked and prepared food for patient orders in an appropriate and timely manner</li>
-          <li>Provided care, housekeeping, errands and companionship to elderly in their homes</li>
-        </ul>
-      </article>
+    <!-- MISSING FEATURES -->
+    <section id="fixes" class="section dark">
+      <h2>What other apps missed. <em>We fixed it.</em></h2>
+      <p class="sub">Built from the most common dating app complaints.</p>
+      <div class="grid4">
+        <div class="fix"><span class="x">Complaint</span><h4>"I got ghosted again"</h4><p class="ok">✔ Gentle Close: a kind, one-tap way to end a chat. Silent disappearing triggers a nudge.</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"So many fake profiles"</h4><p class="ok">✔ Live selfie verification. The \$8 entry also keeps out bots and scammers.</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"Paywalls everywhere"</h4><p class="ok">✔ One \$8 payment unlocks everything. No subscription, no paid "likes".</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"Swiping is exhausting"</h4><p class="ok">✔ Daily Mix: a curated set of quality matches instead of endless scrolling.</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"We wanted different things"</h4><p class="ok">✔ Intent badges: relationship, dating, friends or open. Shown up front.</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"Photos don't look like them"</h4><p class="ok">✔ Fresh-photo prompts and a Voice Intro so you hear the person first.</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"Ads ruin the mood"</h4><p class="ok">✔ 100% ad-free, and your data is never sold.</p></div>
+        <div class="fix"><span class="x">Complaint</span><h4>"Dating burnout"</h4><p class="ok">✔ Rest Mode pauses your profile without losing matches, plus wellbeing check-ins.</p></div>
+      </div>
     </section>
 
-    <section id="education">
-      <h2>Education</h2>
-
-      <article>
-        <h3>Nursing Assistant Training Program</h3>
-        <p>Brockton, MA</p>
-        <p><time datetime="2022-05">May 2022</time></p>
-        <ul>
-          <li>Home Health Aide Certificate, CPR Certificate</li>
-          <li>Alzheimer’s disease Rehabilitation Certificate</li>
-          <li>Nurse Aide Competency certificate/License</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Construction Education Foundation of GA (CEFGA)</h3>
-        <p>Atlanta, GA</p>
-        <p><time datetime="2019-09">Sept 2019</time></p>
-        <ul>
-          <li>OSHA 10 Hour Card</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Penn Foster High School, Job Corp</h3>
-        <p>Atlanta, GA</p>
-        <p><time datetime="2014-08">August 2014</time></p>
-        <ul>
-          <li>GED, Business and Finance Certificate</li>
-        </ul>
-      </article>
+    <!-- HOW -->
+    <section id="how" class="section">
+      <h2>Your love song in <em>4 steps</em></h2>
+      <ol class="steps">
+        <li><b>♪</b><h4>Enter</h4><p>Pay \$8 once.</p></li>
+        <li><b>🎧</b><h4>Connect music</h4><p>Link your favorite playlist.</p></li>
+        <li><b>🦋</b><h4>Get your Daily Mix</h4><p>Meet matches in harmony.</p></li>
+        <li><b>♥</b><h4>Meet</h4><p>Chat, call, then go on a date.</p></li>
+      </ol>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="section narrow">
+      <h2>Questions</h2>
+      <details><summary>Is the \$8 a subscription?</summary><p>No. It's a single one-time payment for full access.</p></details>
+      <details><summary>Why charge to enter?</summary><p>It keeps out bots, fakes and casual scammers so the community stays genuine.</p></details>
+      <details><summary>Do I need Spotify or Apple Music?</summary><p>No. You can also pick favorite songs and artists by hand.</p></details>
+      <details><summary>Can I get a refund?</summary><p>Set your own refund policy in your payment provider and describe it here.</p></details>
+    </section>
+
+    <!-- JOIN CTA -->
+    <section class="final">
+      <h2>Ready to find your harmony?</h2>
+      <a href="#join" class="btn big">Enter BeMyMelody · \$8</a>
+    </section>
   </main>
+
+  <footer>
+    <p>♫ BeMyMelody © 2026 · Made with love and a good playlist</p>
+    <p><a href="#top">Back to top ↑</a></p>
+  </footer>
+
+  <!-- PAYMENT MODAL (CSS :target) -->
+  <div id="join" class="modal">
+    <a href="#top" class="backdrop" aria-label="Close"></a>
+    <div class="dialog">
+      <a href="#top" class="close" aria-label="Close">✕</a>
+      <div class="bf mb"><i></i><i></i></div>
+      <h3>Enter BeMyMelody</h3>
+      <p class="price">\$8<small> one-time</small></p>
+      <ul>
+        <li>♪ Full access to all features</li>
+        <li>♪ Verified, bot-free community</li>
+        <li>♪ No subscription, no ads</li>
+      </ul>
+      <!-- Replace with your Stripe Payment Link or PayPal URL -->
+      <a class="btn big" href="YOUR_PAYMENT_LINK">Pay \$8 & Enter</a>
+      <small class="tiny">Secure checkout handled by your payment provider.</small>
+    </div>
+  </div>
 
 </body>
 </html>
